@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#c17a5c" stroke-opacity="0.18" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9d5f47"/>
+      <stop offset="0.5" stop-color="#c17a5c"/>
+      <stop offset="1" stop-color="#d4a089"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.55"/>
+
+  <!-- abstract cladding panels -->
+  <g opacity="0.92">
+    <rect x="170" y="170" width="1260" height="560" rx="6" fill="#1f1f1f" stroke="#3a3a3a" stroke-width="2"/>
+    <g stroke="url(#copper)" stroke-width="6" stroke-linecap="square" opacity="0.65">
+      <path d="M240 240H1360"/>
+      <path d="M240 320H1360"/>
+      <path d="M240 400H1360"/>
+      <path d="M240 480H1360"/>
+      <path d="M240 560H1360"/>
+      <path d="M240 640H1360"/>
+    </g>
+    <g opacity="0.32" fill="#f5f5f3">
+      <rect x="260" y="260" width="220" height="340" rx="3"/>
+      <rect x="520" y="260" width="260" height="260" rx="3"/>
+      <rect x="820" y="260" width="240" height="180" rx="3"/>
+      <rect x="1090" y="260" width="250" height="340" rx="3"/>
+    </g>
+  </g>
+
+  <g>
+    <text x="110" y="92" fill="#f5f5f3" opacity="0.88" font-family="Segoe UI, Tahoma, sans-serif" font-size="28" letter-spacing="1">FACADEPRO — IMAGE PLACEHOLDER</text>
+    <text x="110" y="130" fill="#9b9b97" opacity="0.95" font-family="Segoe UI, Tahoma, sans-serif" font-size="18">Replace with premium project photography (home exterior / siding detail / crew at work)</text>
+  </g>
+
+  <g>
+    <text x="110" y="835" fill="#c17a5c" opacity="0.85" font-family="Segoe UI, Tahoma, sans-serif" font-size="16" letter-spacing="0.5">1600×900 • SVG placeholder • Optimized for GitHub Pages</text>
+  </g>
+</svg>

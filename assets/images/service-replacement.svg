@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f5f3"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9d5f47"/>
+      <stop offset="0.5" stop-color="#c17a5c"/>
+      <stop offset="1" stop-color="#d4a089"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- "old vs new" split -->
+  <g>
+    <rect x="110" y="120" width="480" height="560" fill="#2a2a2a"/>
+    <rect x="610" y="120" width="480" height="560" fill="#ffffff" opacity="0.6"/>
+
+    <g stroke="#9b9b97" stroke-width="6" opacity="0.55">
+      <path d="M150 220H550"/>
+      <path d="M150 300H550"/>
+      <path d="M150 380H550"/>
+      <path d="M150 460H550"/>
+      <path d="M150 540H550"/>
+      <path d="M150 620H550"/>
+    </g>
+
+    <g stroke="url(#copper)" stroke-width="8" opacity="0.85">
+      <path d="M650 220H1050"/>
+      <path d="M650 300H1050"/>
+      <path d="M650 380H1050"/>
+      <path d="M650 460H1050"/>
+      <path d="M650 540H1050"/>
+      <path d="M650 620H1050"/>
+    </g>
+
+    <path d="M600 120V680" stroke="#c17a5c" stroke-width="4" opacity="0.8"/>
+  </g>
+
+  <g font-family="Segoe UI, Tahoma, sans-serif">
+    <text x="120" y="92" fill="#1a1a1a" font-size="26" font-weight="700" letter-spacing="0.8">Replacement Placeholder</text>
+    <text x="120" y="126" fill="#4a4a4a" font-size="16">Swap for full elevation photography (before/after feel, crisp lines, premium finish)</text>
+  </g>
+</svg>

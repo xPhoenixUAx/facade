@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9d5f47"/>
+      <stop offset="0.55" stop-color="#c17a5c"/>
+      <stop offset="1" stop-color="#d4a089"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bg)"/>
+
+  <g font-family="Segoe UI, Tahoma, sans-serif">
+    <text x="90" y="95" fill="#f5f5f3" font-size="26" font-weight="700" letter-spacing="0.8">Contractor Network Placeholder</text>
+    <text x="90" y="130" fill="#9b9b97" font-size="16">Swap for team / fleet / workmanship imagery (credible, premium, clean)</text>
+  </g>
+
+  <g opacity="0.95">
+    <circle cx="700" cy="420" r="120" fill="#202020" stroke="url(#copper)" stroke-width="6"/>
+    <text x="700" y="428" text-anchor="middle" fill="#f5f5f3" font-family="Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700">FacadePro</text>
+
+    <g stroke="#c17a5c" stroke-opacity="0.45" stroke-width="6">
+      <path d="M700 300V175"/>
+      <path d="M700 540V665"/>
+      <path d="M580 420H435"/>
+      <path d="M820 420H965"/>
+      <path d="M615 345L515 245"/>
+      <path d="M785 345L885 245"/>
+      <path d="M615 495L515 595"/>
+      <path d="M785 495L885 595"/>
+    </g>
+
+    <g fill="#f5f5f3" opacity="0.18">
+      <circle cx="700" cy="150" r="62"/>
+      <circle cx="700" cy="690" r="62"/>
+      <circle cx="410" cy="420" r="62"/>
+      <circle cx="990" cy="420" r="62"/>
+      <circle cx="470" cy="210" r="52"/>
+      <circle cx="930" cy="210" r="52"/>
+      <circle cx="470" cy="630" r="52"/>
+      <circle cx="930" cy="630" r="52"/>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Tahoma, sans-serif" opacity="0.95">
+    <text x="700" y="156" text-anchor="middle" fill="#f5f5f3" font-size="14" font-weight="700">Licensed</text>
+    <text x="700" y="696" text-anchor="middle" fill="#f5f5f3" font-size="14" font-weight="700">Insured</text>
+    <text x="410" y="426" text-anchor="middle" fill="#f5f5f3" font-size="14" font-weight="700">Reviewed</text>
+    <text x="990" y="426" text-anchor="middle" fill="#f5f5f3" font-size="14" font-weight="700">Responsive</text>
+
+    <text x="470" y="216" text-anchor="middle" fill="#f5f5f3" font-size="13">Install</text>
+    <text x="930" y="216" text-anchor="middle" fill="#f5f5f3" font-size="13">Repair</text>
+    <text x="470" y="636" text-anchor="middle" fill="#f5f5f3" font-size="13">Replace</text>
+    <text x="930" y="636" text-anchor="middle" fill="#f5f5f3" font-size="13">Consult</text>
+  </g>
+</svg>

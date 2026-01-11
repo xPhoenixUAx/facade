@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f5f3"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9d5f47"/>
+      <stop offset="0.5" stop-color="#c17a5c"/>
+      <stop offset="1" stop-color="#d4a089"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bg)"/>
+
+  <g font-family="Segoe UI, Tahoma, sans-serif">
+    <text x="90" y="95" fill="#1a1a1a" font-size="26" font-weight="700" letter-spacing="0.8">Process Diagram Placeholder</text>
+    <text x="90" y="130" fill="#4a4a4a" font-size="16">Swap for illustration (site visit → scope → proposal → install)</text>
+  </g>
+
+  <g>
+    <path d="M160 210H1240" stroke="#9b9b97" stroke-opacity="0.35" stroke-width="8"/>
+
+    <g>
+      <circle cx="220" cy="210" r="38" fill="#1a1a1a"/>
+      <circle cx="220" cy="210" r="38" fill="url(#copper)" opacity="0.25"/>
+      <text x="220" y="218" text-anchor="middle" fill="#f5f5f3" font-family="Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700">1</text>
+      <text x="220" y="295" text-anchor="middle" fill="#1a1a1a" font-family="Segoe UI, Tahoma, sans-serif" font-size="18" font-weight="700">Submit</text>
+      <text x="220" y="322" text-anchor="middle" fill="#4a4a4a" font-family="Segoe UI, Tahoma, sans-serif" font-size="14">scope + photos</text>
+    </g>
+
+    <g>
+      <circle cx="560" cy="210" r="38" fill="#1a1a1a"/>
+      <circle cx="560" cy="210" r="38" fill="url(#copper)" opacity="0.25"/>
+      <text x="560" y="218" text-anchor="middle" fill="#f5f5f3" font-family="Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700">2</text>
+      <text x="560" y="295" text-anchor="middle" fill="#1a1a1a" font-family="Segoe UI, Tahoma, sans-serif" font-size="18" font-weight="700">Match</text>
+      <text x="560" y="322" text-anchor="middle" fill="#4a4a4a" font-family="Segoe UI, Tahoma, sans-serif" font-size="14">2–3 pros</text>
+    </g>
+
+    <g>
+      <circle cx="900" cy="210" r="38" fill="#1a1a1a"/>
+      <circle cx="900" cy="210" r="38" fill="url(#copper)" opacity="0.25"/>
+      <text x="900" y="218" text-anchor="middle" fill="#f5f5f3" font-family="Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700">3</text>
+      <text x="900" y="295" text-anchor="middle" fill="#1a1a1a" font-family="Segoe UI, Tahoma, sans-serif" font-size="18" font-weight="700">Compare</text>
+      <text x="900" y="322" text-anchor="middle" fill="#4a4a4a" font-family="Segoe UI, Tahoma, sans-serif" font-size="14">pricing + plan</text>
+    </g>
+
+    <g>
+      <circle cx="1240" cy="210" r="38" fill="#1a1a1a"/>
+      <circle cx="1240" cy="210" r="38" fill="url(#copper)" opacity="0.25"/>
+      <text x="1240" y="218" text-anchor="middle" fill="#f5f5f3" font-family="Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700">4</text>
+      <text x="1240" y="295" text-anchor="middle" fill="#1a1a1a" font-family="Segoe UI, Tahoma, sans-serif" font-size="18" font-weight="700">Complete</text>
+      <text x="1240" y="322" text-anchor="middle" fill="#4a4a4a" font-family="Segoe UI, Tahoma, sans-serif" font-size="14">warranty + review</text>
+    </g>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="90" y="410" width="1220" height="290" fill="#ffffff"/>
+    <path d="M90 510H1310" stroke="#e8e8e8" stroke-width="4"/>
+    <path d="M90 610H1310" stroke="#e8e8e8" stroke-width="4"/>
+    <path d="M300 410V700" stroke="#e8e8e8" stroke-width="4"/>
+    <path d="M660 410V700" stroke="#e8e8e8" stroke-width="4"/>
+    <path d="M1020 410V700" stroke="#e8e8e8" stroke-width="4"/>
+  </g>
+
+  <g font-family="Segoe UI, Tahoma, sans-serif" opacity="0.85">
+    <text x="140" y="475" fill="#1a1a1a" font-size="14" font-weight="700">Inputs</text>
+    <text x="140" y="500" fill="#4a4a4a" font-size="13">home size • material • budget</text>
+
+    <text x="420" y="475" fill="#1a1a1a" font-size="14" font-weight="700">Outputs</text>
+    <text x="420" y="500" fill="#4a4a4a" font-size="13">quotes • schedule • warranty</text>
+
+    <text x="780" y="475" fill="#1a1a1a" font-size="14" font-weight="700">Quality</text>
+    <text x="780" y="500" fill="#4a4a4a" font-size="13">licensed • insured • vetted</text>
+
+    <text x="1140" y="475" fill="#1a1a1a" font-size="14" font-weight="700">Support</text>
+    <text x="1140" y="500" fill="#4a4a4a" font-size="13">updates • escalation</text>
+  </g>
+</svg>

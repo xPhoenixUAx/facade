@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join FacadePro. Grow your siding contracting business with quality leads nationwide."
+    />
+    <title>For Contractors – FacadePro</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER / NAVIGATION -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">
+            <span>
+              <img
+                src="./assets/images/logo2.png"
+                width="100"
+                height="100"
+                alt="FacadePro"
+              />
+            </span>
+            FacadePro
+          </a>
+
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="materials.html">Materials</a></li>
+              <li><a href="how-it-works.html">Process</a></li>
+              <li><a href="for-contractors.html">For Contractors</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="nav-toggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="hero" style="min-height: 44vh">
+      <div class="container">
+        <div class="hero-content">
+          <h1>For Contractors</h1>
+          <p class="hero-subtitle">
+            Join the FacadePro network and get connected with homeowner siding
+            projects in your service area.
+          </p>
+          <div class="hero-cta">
+            <a href="#apply" class="btn btn-primary">Apply Now</a>
+            <a href="contact.html" class="btn btn-secondary">Homeowner Form</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTRACTOR CONTACT -->
+    <section class="light" id="apply">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contractor Application</h2>
+          <p>Share your company details and we’ll reach out with next steps.</p>
+        </div>
+
+        <div class="grid grid-2">
+          <div>
+            <h3>Quick overview</h3>
+            <ul class="feature-list">
+              <li>Independent, licensed & insured siding contractors</li>
+              <li>Choose which opportunities you pursue</li>
+              <li>Transparent performance-based partnership</li>
+              <li>Coverage based on your service areas</li>
+            </ul>
+            <p style="margin-top: var(--spacing-lg); color: var(--color-stone)">
+              Typical response time: 1–2 business days.
+            </p>
+          </div>
+
+          <div>
+            <form id="contractor-form">
+              <div class="form-group">
+                <label for="company">*Company Name</label>
+                <input type="text" id="company" name="company" required />
+              </div>
+
+              <div class="form-group">
+                <label for="name">*Contact Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="grid grid-2">
+                <div class="form-group">
+                  <label for="email">*Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">*Phone</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="(555) 123-4567"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-2">
+                <div class="form-group">
+                  <label for="website">Website (Optional)</label>
+                  <input
+                    type="url"
+                    id="website"
+                    name="website"
+                    placeholder="https://"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="experience">Years of Experience</label>
+                  <select id="experience" name="experience">
+                    <option value="">-- Select --</option>
+                    <option value="1-2">1–2 years</option>
+                    <option value="3-5">3–5 years</option>
+                    <option value="6-10">6–10 years</option>
+                    <option value="10-plus">10+ years</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service_areas">*Service Areas</label>
+                <input
+                  type="text"
+                  id="service_areas"
+                  name="service_areas"
+                  placeholder="e.g., Austin, TX + 50 miles"
+                  required
+                />
+              </div>
+
+              <div class="grid grid-2">
+                <div class="form-group">
+                  <label for="licensed">*Licensed?</label>
+                  <select id="licensed" name="licensed" required>
+                    <option value="">-- Select --</option>
+                    <option value="yes">Yes</option>
+                    <option value="in-progress">In progress</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="insured">*Insured?</label>
+                  <select id="insured" name="insured" required>
+                    <option value="">-- Select --</option>
+                    <option value="yes">Yes</option>
+                    <option value="in-progress">In progress</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Notes (Optional)</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us what types of siding projects you want (install/repair/replacement), materials you work with, and any coverage details."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="consent" required />
+                  I confirm the information provided is accurate.
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Submit Application
+              </button>
+
+              <p class="contractor-form-note">
+                By submitting this form, you agree to be contacted by FacadePro.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About FacadePro</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>For Homeowners</h4>
+            <ul>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="materials.html">Siding Materials</a></li>
+              <li><a href="how-it-works.html">How It Works</a></li>
+              <li><a href="contact.html">Get Started</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>For Contractors</h4>
+            <ul>
+              <li><a href="for-contractors.html">Join Our Network</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="how-it-works.html#faq">FAQ</a></li>
+              <li><a href="contact.html">Contact Support</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+              <li><a href="cookies.html">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 FacadePro Siding. All rights reserved.</p>
+        </div>
+
+        <div class="footer-legal">
+          <div class="footer-legal-operator">
+            <strong>Website Operator:</strong> VOICEHOOKUP s.r.o.<br />
+            <strong>Registered Office:</strong> Zámostní 1155/27, Slezská
+            Ostrava, 710 00 Ostrava, Czech Republic<br />
+            <strong>Company ID (IČO):</strong> 211 34 723<br />
+            <strong>Legal Form:</strong> Společnost s ručením omezeným
+            (s.r.o.)<br />
+            <strong>Commercial Register:</strong> File C 94848, maintained by
+            the Regional Court in Ostrava<br />
+            <strong>Date of Registration:</strong> 17 January 2024
+          </div>
+          <div class="footer-legal-disclaimer">
+            <strong>Disclaimer:</strong> This site is a free service to assist
+            homeowners in connecting with local service providers. All
+            contractors/providers are independent and this site does not warrant
+            or guarantee any work performed. It is the responsibility of the
+            homeowner to verify that the hired contractor furnishes the
+            necessary license and insurance required for the work being
+            performed. All persons depicted in a photo or video are actors or
+            models and not contractors listed on this site.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
