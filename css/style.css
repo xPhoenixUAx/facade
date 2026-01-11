@@ -1608,7 +1608,7 @@ section.gallery-section .container {
 }
 
 section.dark {
-  background-image: url("./assets/images/serv.jpeg");
+  background-image: url("../assets/images/serv.jpeg");
   background-size: cover;
   background-position: center;
   color: var(--color-off-white);
@@ -1628,7 +1628,7 @@ section.dark::before {
 }
 
 section.nationwide-coverage {
-  background-image: url("./assets/images/network-bg.jpeg");
+  background-image: url("../assets/images/network-bg.jpeg");
 }
 
 section.dark .container {
@@ -1734,7 +1734,7 @@ section.dark.cta-alt .btn-secondary-outline:hover {
 
 /* Service Comparison Section - Custom Background */
 .service-comparison-section {
-  background-image: url("./assets/images/12.jpeg");
+  background-image: url("../assets/images/12.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -2908,19 +2908,19 @@ section.dark .section-header p {
 }
 
 .material-card[data-material="vinyl"] {
-  background-image: url("./assets/images/vinil.jpeg");
+  background-image: url("../assets/images/vinil.jpeg");
 }
 
 .material-card[data-material="fiber"] {
-  background-image: url("./assets/images/cement.jpeg");
+  background-image: url("../assets/images/cement.jpeg");
 }
 
 .material-card[data-material="wood"] {
-  background-image: url("./assets/images/wood.jpeg");
+  background-image: url("../assets/images/wood.jpeg");
 }
 
 .material-card[data-material="metal"] {
-  background-image: url("./assets/images/metal.jpeg");
+  background-image: url("../assets/images/metal.jpeg");
 }
 
 .material-card::before {
